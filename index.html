@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي الشخصية | Baran</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            width: 350px;
+            padding: 40px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--primary-color), #00d4ff);
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: var(--text-color);
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .tags {
+            margin: 20px 0;
+        }
+
+        .tag {
+            background: #e1f0ff;
+            color: var(--primary-color);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img">B</div>
+        <h1>مرحباً، أنا باران</h1>
+        <p>مصمم واجهات ومطور تطبيقات أندرويد مهتم ببناء تجارب رقمية مميزة.</p>
+        
+        <div class="tags">
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Sketchware</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Java</span>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/your-username" target="_blank">تابعني على GitHub</a>
+            <a href="mailto:your-email@example.com">تواصل معي</a>
+        </div>
+    </div>
+
+</body>
+</html>
